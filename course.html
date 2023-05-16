@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="">
+        <title>Course</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="profile">
+                <img src="img/img1.jpg" alt="selfie">
+                <h2>ALL ABOUT ME</h2>
+            </div>
+        
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i>HOME</a></li>
+                    <li><a href="resume.html"><i class="fa-solid fa-file"></i>RESUME</a></li>
+                    <li><a href="course.html"><i class="fa-solid fa-book"></i>COURSE</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer">
+                <p>&copy; Copyright 2023 <br>Designed by WT</p>
+            </div>
+
+        </header>
+        <!-- Mobile Nav Toggle-->
+        <i class="fa-solid fa-bars" id="MenuBtn"></i>
+
+        <main>
+            <section id="search">
+                <div class="container">
+                    <div class="search-box">
+                        <input type="text" id="search-btn" class="search-btn" placeholder="Search">
+                    </div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </section>
+
+            <section id="course">
+                <h2 class="heading">My Courses</h2>
+
+                <div class="course-filter">
+                    <label for="level-filter">Filter by Level:</label>
+                    <select id="level-filter">
+                        <option value="all">All</option>
+                        <option value="1">Level 1</option>
+                        <option value="2">Level 2</option>
+                    </select>
+                    <button id="filter-btn">Filter</button>
+                </div>
+
+                <div class="course-sort">
+                    <span>Sort by Level:</span>
+                    <button id="sort-high-btn">High to Low</button>
+                    <button id="sort-low-btn">Low to High</button>
+                </div>
+
+                <div class="course-row" id="course-row">
+
+                    <div class="course-main">
+                        <div class="course-info">
+                            <a href=#><i class="fa-brands fa-java"></i></a>
+                            <h4>CST8116 Intro to Computer Programming</h4>
+                            <h5>Level 1</h5>
+                            <p>Possessing the fundamentals of logic, problem-solving and programming language structure provides a solid foundation for further study in the field</p>
+                        </div>
+                    </div>
+
+                    <div class="course-main">
+                        <div class="course-info">
+                            <a href=#><i class="fa-regular fa-floppy-disk"></i></a>
+                            <h4>CST8101 Computer Essentials</h4>
+                            <h5>Level 1</h5>
+                            <p>The essentials of computer software, hardware, and laptop management form the foundation for building further technical programming skills</p>
+                        </div>
+                    </div>
+
+                    <div class="course-main">
+                        <div class="course-info">
+                            <a href=#><i class="fa-solid fa-database"></i></a>
+                            <h4>CST8215 Introduction to Database</h4>
+                            <h5>Level 1</h5>
+                            <p>Databases are used to store data and are a core component of many information technology systems</p>
+                        </div>
+                    </div>
+
+                    <div class="course-main">
+                        <div class="course-info">
+                            <a href=#><i class="fa-solid fa-square-root-variable"></i></a>
+                            <h4>MAT8001 Tech Math for Computer Science</h4>
+                            <h5>Level 1</h5>
+                            <p>The study of algebraic and transcendental functions is an essential prerequisite to Calculus</p>
+                        </div>
+                    </div>
+
+                    <div class="course-main">
+                        <div class="course-info">
+                            <a href=#><i class="fa-brands fa-linux"></i></a>
+                            <h4>CST8102 Operating Systems Fund(GNU/Linux)</h4>
+                            <h5>Level 2</h5>
+                            <p>Operating systems form the backbone of information technology systems coordinating the interaction between hardware and software</p>
+                        </div>
+                    </div>
+
+                    <div class="course-main">
+                        <div class="course-info">
+                            <a href=#><i class="fa-solid fa-laptop-code"></i></a>
+                            <h4>CST8284 Object Oriented Programming</h4>
+                            <h5>Level 2</h5>
+                            <p>Working in the field of information technology as a programmer requires a firm understanding of Object-Oriented Programming (OOP) concepts</p>
+                        </div>
+                    </div>
+
+                    <div class="course-main">
+                        <div class="course-info">
+                            <a href=#><i class="fa-solid fa-code"></i></a>
+                            <h4>CST8285 Web Programming</h4>
+                            <h5>Level 2</h5>
+                            <p>Students develop basic skills of web programming, website design and implementation</p>
+                        </div>
+                    </div>
+
+                    <div class="course-main">
+                        <div class="course-info">
+                            <a href=#><i class="fa-solid fa-server"></i></a>
+                            <h4>CST2355 Database Systems</h4>
+                            <h5>Level 2</h5>
+                            <p>Students acquire practical experience using market-leading object-relational database management systems like Oracle and MySQL</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <script src="script.js"></script>
+        <script src="menubutton.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://kit.fontawesome.com/b23fc324d1.js" crossorigin="anonymous"></script>
+    </body>
+</html>
